@@ -6,7 +6,7 @@
 <p><i>generalresponses.data, generalsamples.data</i> - файлы с обучащей выборкой</p>
 <p>Инструкция:
 <ol>
-	<li>Установка OpenCV</li>
+	<li>Установка OpenCV<ul><li>sudo chmod +x ./install-opencv.sh</li><li>sudo ./install-opencv.sh</li></ul></li>
 	<li>Запуск learn.py (создание обучающей выборки, если ее нет)<ul><li>Программа определяет контуры символов</li><li>На каждый выделенный символ нажать соответствующую клавишу</li></ul></li>
 	<li>Запуск test.py (анализ тестового изображения)</li>
 </ol>
